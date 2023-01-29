@@ -1,0 +1,19 @@
+ @import '_commons';
+
+
+body{
+
+background-color:$color-body;
+
+}
+
+
+ 
+//Condicionales
+p{
+    @if $color-backContainer==#02151b{color:white}
+    @else {color:black;
+}
+
+}
+   
